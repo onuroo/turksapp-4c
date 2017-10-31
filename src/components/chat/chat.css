@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,600');
+body {
+    background-color: #ddd;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.left {
+    width: 30%;
+    height: 100%;
+    overflow: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+.left-header {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #efefef;
+}
+.user-image {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+.chat-icons {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 250px;
+}
+.chat-icons a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.chat-icons a.status {
+    background-image: url(../../assets/images/story.svg);
+    background-repeat: no-repeat;
+    background-position: 9px;
+}
+.chat-icons a.menu {
+    background-image: url(../../assets/images/menu.svg);
+    background-repeat: no-repeat;
+    background-position: 9px;
+}
+.chat-icons a.message {
+    background-image: url(../../assets/images/message.svg);
+    background-repeat: no-repeat;
+    background-position: 9px;
+}
+.left-search {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #ededed;
+    border-left: 1px solid #c9c7c7;
+    border-right: 1px solid #c9c7c7;
+    border-bottom: 1px solid #c9c7c7;
+}
+.left-input {
+    width: 85%;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 7px 0 0 8px;
+    outline: none;
+    padding-left: 10%;
+    background-image: url(../../assets/images/search.svg);
+    background-repeat: no-repeat;
+    background-position: 6px;
+}
+.chats {
+    width: 100%;
+    height: 100%;
+    min-height: 650px;
+    overflow: hidden;
+    background-color: #fff;
+    border-left: 1px solid #c9c7c7;
+    border-right: 1px solid #c9c7c7;
+}
+
+

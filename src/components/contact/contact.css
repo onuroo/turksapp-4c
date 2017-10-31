@@ -1,0 +1,74 @@
+.chat-box {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ddd;
+}
+.chat-box:hover {
+    background-color: #ddd;
+    transition: 200ms all;
+
+}
+.chat-box:nth-last-child(1) {
+    border-bottom: none;
+}
+.chat-image {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    border-radius: 70px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.chat-middle {
+    width: 280px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+.middle-box {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.name-line {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.seen {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-image: url(../../assets/images/seen.png);
+    background-size: cover;
+}
+.unseen {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-image: url(../../assets/images/unseen.png);
+    background-size: cover;
+}
+.middle-message {
+    width: 242px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 38px;
+    font-size: 12px;
+    line-height: 15px;
+}

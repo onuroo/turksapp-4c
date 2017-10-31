@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,600');
+.right {
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 30%;
+    border-left: 1px solid #ddd;
+}
+.right-header {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color:#efefef;
+    -webkit-box-shadow: 6px 4px 24px -6px rgba(0,0,0,0.46);
+    -moz-box-shadow: 6px 4px 24px -6px rgba(0,0,0,0.46);
+    box-shadow: 6px 4px 24px -6px rgba(0,0,0,0.46);
+}
+.right-user-image {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 20px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.right-username {
+    width: 700px;
+    height: 56px;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+}
+.right-username-text {
+    line-height: 30px;
+    font-size: 14px;
+}
+.status {
+    font-size: 12px;
+    color: #7f8c8d;
+    font-style: italic;
+    font-weight: 400;
+}
+.username-box {
+    width: 100%;
+    height: 28px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.right-chat-box {
+    width: 90%;
+    height: 71%;
+    background-image:url(../../assets/images/chat.png);
+    padding: 5%;
+    overflow: scroll;
+}
+
+.bubbles {
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 15px;
+    clear: both;
+
+}
+.bubble-box {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 7px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.bubble-left {
+    max-width: 90%;
+    padding: 10px 50px 20px 10px;
+    display: inline-block;
+    word-wrap: break-word;
+    height: auto;
+    min-height: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    background: rgba(25,118,210 ,0.5);
+    color: #fff;
+    text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.22);
+    box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.22);
+    font-size: 14px;
+}
+.bubble-right {
+    max-width: 90%;
+    padding: 10px;
+    display: block;
+    word-wrap: break-word;
+    height: auto;
+    min-height: 25px;
+    float: right;
+    background-color: #fff;
+    border-radius: 8px;
+    background: rgba(255,255,255 ,0.9);
+    color: #a0a0a0;
+    text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.22);
+    box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.22);
+    padding-right: 50px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.bubble-box span.time-left {
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top: 15px;
+    left: 35px;
+}
+.bubble-box span.time-right {
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top: 15px;
+    left: 35px;
+}
+.bubble-box span.chat-seen {
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top: 13px;
+    left: 30px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/images/seen.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.bubble-box span.chat-unseen {
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top: 13px;
+    left: 30px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/images/unseen.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 999;
+    display: none;
+    transition: 800ms all;
+    -webkit-transition: 800ms all;
+    -moz-transition: 800ms all;
+    -o-transition: 800ms all;
+}
+.modal-profile-picture {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 165px auto;
+    z-index: 9999;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-radius: 200px;
+    display: none;
+    transition: 800ms all;
+    -webkit-transition: 800ms all;
+    -moz-transition: 800ms all;
+    -o-transition: 800ms all;
+}
+
